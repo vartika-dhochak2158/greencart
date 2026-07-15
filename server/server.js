@@ -23,30 +23,20 @@ await connectCloudinary();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://greencart-app-ynao.vercel.app",
-  "https://greencart-app-ruddy.vercel.app",
 ];
 
-// CORS middleware
 app.use(
   cors({
     origin: (origin, callback) => {
-      // allow Postman/mobile requests
-      if (!origin) {
-        return callback(null, true);
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("CORS blocked"));
       }
-
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-
-      return callback(new Error("CORS blocked"));
     },
     credentials: true,
   }),
 );
-
-// preflight
-app.options("*", cors());
 
 // Body parsers
 app.use(express.json());
