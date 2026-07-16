@@ -127,6 +127,3 @@ Make sure to set these environment variables in the respective Vercel project's 
 
 Also double check in `server/server.js` that `allowedOrigins` includes your deployed frontend URL, or cross-origin requests will be blocked.
 
-## License
-
-This project is for educational/portfolio purposes.
