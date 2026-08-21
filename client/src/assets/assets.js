@@ -18,7 +18,7 @@ export function cldImg(name, ext = "jpg") {
 export const categories = [
     { id: "Vegetables", name: "Vegetables", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325405/vege.jpg") },
     { id: "Fruits", name: "Fruits", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325439/fruits.jpg") },
-    { id: "Dairy", name: "Dairy & Milk", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787321094/banner.jpg") },
+    { id: "Dairy", name: "Dairy & Milk", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325898/wer.jpg") },
     { id: "Bakery", name: "Bakery & Snacks", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212823/bannerb.webp") },
     { id: "Grains", name: "Grains & Nuts", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212891/bannerg.webp") },
     { id: "Instant", name: "Instant & Frozen", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212902/banneri.webp") },
