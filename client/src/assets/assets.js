@@ -16,13 +16,13 @@ export function cldImg(name, ext = "jpg") {
 
 // ================= CATEGORIES & BANNERS =================
 export const categories = [
-    { id: "Vegetables", name: "Vegetables", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787321061/banner.jpg") },
-    { id: "Fruits", name: "Fruits", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787320760/banner.jpg") },
+    { id: "Vegetables", name: "Vegetables", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325405/vege.jpg") },
+    { id: "Fruits", name: "Fruits", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325439/fruits.jpg") },
     { id: "Dairy", name: "Dairy & Milk", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787321094/banner.jpg") },
     { id: "Bakery", name: "Bakery & Snacks", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212823/bannerb.webp") },
     { id: "Grains", name: "Grains & Nuts", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212891/bannerg.webp") },
     { id: "Instant", name: "Instant & Frozen", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787212902/banneri.webp") },
-    { id: "Beverages", name: "Drinks", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787321035/banner.avif") },
+    { id: "Beverages", name: "Drinks", image: cldImg("https://res.cloudinary.com/e4nkrgxd/image/upload/v1787325393/drink.avif") },
 ];
 
 export const categoryBanners = {

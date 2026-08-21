@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { assets } from '../assets/assets';
 
 const Footer = () => {
     const [modalContent, setModalContent] = useState(null);
@@ -59,9 +58,9 @@ const Footer = () => {
             {/* Main Balanced Content Area */}
             <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 py-14 flex flex-col md:flex-row items-start justify-between gap-12">
                 {/* Left Side: Brand & Description */}
-                <div className="max-w-md space-y-4">
-                    <Link to="/" className="inline-block">
-                        <img src={assets.logo} alt="GreenCart" className="h-8 object-contain" />
+                <div className="max-w-md space-y-3">
+                    <Link to="/" className="inline-block text-2xl font-black text-emerald-600 tracking-tight">
+                        Green<span className="text-slate-900">Cart</span>
                     </Link>
                     <p className="text-sm text-slate-500 leading-relaxed">
                         We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your shopping experience simple, fast, and affordable.
@@ -74,7 +73,6 @@ const Footer = () => {
                     <div className="space-y-3">
                         <p className="font-bold text-slate-800 text-base">Quick Links</p>
                         <ul className="space-y-2.5 text-sm">
-
                             <li>
                                 <Link to="/products" className="hover:text-emerald-600 transition block">
                                     Best Sellers
